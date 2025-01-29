@@ -5,6 +5,8 @@ from linearmodels.panel import PooledOLS, PanelOLS, RandomEffects
 from statsmodels.discrete.count_model import ZeroInflatedNegativeBinomialP
 from patsy import dmatrices
 
+
+### teste
 # Configuração inicial
 st.set_page_config(
     page_title="Modelos com Dados em Painel",
