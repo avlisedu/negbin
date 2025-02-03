@@ -5,12 +5,15 @@ from linearmodels.panel import PooledOLS, PanelOLS, RandomEffects
 from statsmodels.discrete.count_model import ZeroInflatedNegativeBinomialP
 from patsy import dmatrices
 
+# oi ana
 # Configuração inicial
 st.set_page_config(
     page_title="Modelos com Dados em Painel",
     page_icon="static/images/reg.png",
     layout="wide"
 )
+
+
 
 logo_path = "static/images/gpsid.png"
 st.image(logo_path, use_container_width=False, width=200)
